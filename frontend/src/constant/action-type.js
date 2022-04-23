@@ -1,0 +1,9 @@
+export const REGISTER= "REGISTER";
+export const LOG_IN= "LOG_IN";
+export const LOG_OUT= "LOG_OUT";
+export const CREATE="CREATE";
+export const UPDATE="UPDATE";
+export const DELETE="DELETE";
+export const AUTH_IS_READY="AUTH_IS_READY";
+export const IS_PENDING= "IS_PENDING";
+export const ERROR= "ERROR";

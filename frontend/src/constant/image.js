@@ -1,0 +1,1 @@
+export const error= require("../assets/img/404.png")

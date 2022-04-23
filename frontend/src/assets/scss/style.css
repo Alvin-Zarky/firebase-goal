@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url(e:\React WebApp\goal-firebase\frontend\node_modules\bootstrap\dist\css\bootstrap.css);
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.contain {
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.contain a, .contain ul li {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.contain ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.contain ul li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.contain .underline {
+  width: 100%;
+  border-bottom: 1px solid #d6d6d6;
+  margin-top: 5px;
+}
+
+.overview-page {
+  width: 50%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+.overview-page .title-page span {
+  font-size: 55px;
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.overview-page .title-page span svg {
+  margin-top: -10px;
+}
+
+.overview-page .detail p {
+  font-size: 35px;
+  font-weight: bolder;
+  color: silver;
+}
+
+.overview-page form {
+  margin-top: 40px;
+}
+
+.overview-page form label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+.overview-page form input {
+  width: 100%;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 8px 18px;
+  border: 1px solid #d3d2d2;
+}
+
+.overview-page form input:focus {
+  border: 1px solid black;
+}
+
+.overview-page form button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  padding: 8px;
+  border: none;
+  font-weight: 600;
+}
+
+.overview-page .list-goals {
+  margin-top: 30px;
+}
+
+.overview-page .list-goals .left-box, .overview-page .list-goals .right-box {
+  padding: 25px;
+  background-color: #ebebeb;
+  position: relative;
+}
+
+.overview-page .list-goals .left-box span, .overview-page .list-goals .right-box span {
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.overview-page .list-goals .left-box h3, .overview-page .list-goals .right-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.overview-page .list-goals .left-box .sign-close, .overview-page .list-goals .right-box .sign-close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+.overview-page .list-goals .left-box .sign-close svg, .overview-page .list-goals .right-box .sign-close svg {
+  cursor: pointer;
+}
+
+.overview-page .message {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+.overview-page .message span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overview-page .err-box-msg {
+  width: 100%;
+  background-color: #df2525;
+  margin-top: 25px;
+  border-radius: 5px;
+  margin-bottom: -5px;
+  padding: 12px;
+}
+
+.overview-page .err-box-msg span {
+  color: white;
+  font-size: 17px;
+}
+
+.btn-log-out {
+  padding: 6px 15px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+/*# sourceMappingURL=style.css.map */
